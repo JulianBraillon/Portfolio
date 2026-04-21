@@ -13,9 +13,9 @@
         <p>|</p>
         <a href="#">À propos</a>
         <p>|</p>
-        <a href="#">Projets</a>
-        <p>|</p>
         <a href="#">Compétences</a>
+        <p>|</p>
+        <a href="#">Projets</a>
         <p>|</p>
         <a href="#">Contact</a>
     </div>
@@ -36,41 +36,116 @@
             <a href="#">Voir mes projets</a>
         </div>
     </div>
+    <!-- SECTION À PROPOS -->
+    <section id="a-propos" class="about-section">
+        <div class="about-container">
+
+            <!-- En-tête de section -->
+            <div class="section-header">
+                <span class="section-badge">Qui suis-je ?</span>
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-divider"></div>
+            </div>
+        </div>
+    </section>
     <div class="div-2">
         <div class="div-2-1">
-            <div class="div-2-1-1">
-                <p class="special">"</p>
-                <p>
-                    Curieux, autonome et <span>rigoureux</span>, je suis passionné par
-                    <span>l’informatique</span> depuis mon enfance.
-                    J’ai exploré plusieurs technologies :
-                    <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>Java</span>,
-                    <span>PHP</span>, <span>Laravel</span>, <span>C</span>, <span>Python</span> et <span>SQL</span>.
-                    Je me sens à l’aise en <span>full-stack</span>, avec une légère préférence pour le
-                    <span>front-end</span>, où <span>l’expérience utilisateur</span> et
-                    <span>l’aspect visuel</span> prennent tout leur sens.
-                </p>
-            </div>
-            <div class="div-2-1-2">
-                <ul>
-                    <li><span>➔</span> Rigueur</li>
-                    <li><span>➔</span> Créativité</li>
-                    <li><span>➔</span> Travail d’équipe</li>
-                </ul>
-            </div>
-            <div class="div-2-1-3">
-                <img src="img/frise.png" alt="frise chronologique" class="frise">
+            <div class="about-content">
+                <!-- Colonne gauche : Présentation personnelle -->
+                <div class="about-text">
+                    <h3 class="about-greeting">Bonjour, moi c'est <span class="highlight">Julian</span></h3>
+
+                    <p class="about-description">
+                        Étudiant en <strong>BTS SIO option SLAM</strong>, je suis passionné par le développement
+                        logiciel
+                        et la création d'applications web. Mon objectif est de devenir un développeur polyvalent
+                        capable
+                        de transformer des idées en solutions techniques concrètes et élégantes.
+                    </p>
+
+                    <p class="about-description">
+                        Curieux et autodidacte, j'aime apprendre de nouvelles technologies et relever des défis
+                        techniques.
+                        Ce portfolio rassemble mes projets réalisés durant ma formation et mes expériences
+                        personnelles.
+                    </p>
+
+                    <!-- Infos rapides -->
+                    <div class="about-tags">
+                        <div class="tag-group">
+                            <span class="tag-label">Formation :</span>
+                            <span class="tag-value">BTS SIO SLAM (2e année)</span>
+                        </div>
+                        <div class="tag-group">
+                            <span class="tag-label">Passions :</span>
+                            <div class="tag-chips">
+                                <span>Dev Web</span>
+                                <span>UI/UX</span>
+                                <span>Open Source</span>
+                            </div>
+                        </div>
+                        <div class="tag-group">
+                            <span class="tag-label">Localisation :</span>
+                            <span class="tag-value">Gleizé</span>
+                        </div>
+                        <div class="tag-group">
+                            <span class="tag-label">Objectif :</span>
+                            <span class="tag-value">Alternance / Développeur Full-Stack</span>
+                        </div>
+                        <p class="bts-conclusion">
+                            J'ai choisi l'option <strong>SLAM</strong> car j'aime coder, créer des solutions sur mesure
+                            et voir mes projets prendre vie.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Colonne droite : Présentation du BTS SIO -->
+                <div class="bts-card">
+                    <h3 class="bts-title">Qu'est-ce que le BTS SIO ?</h3>
+                    <p class="bts-description">
+                        Le <strong>BTS Services Informatiques aux Organisations</strong> est une formation de deux
+                        ans
+                        qui prépare aux métiers de l'informatique en entreprise.
+                    </p>
+
+                    <div class="bts-options">
+                        <div class="option option-slam">
+                            <h4>Option SLAM</h4>
+                            <p><strong>Solutions Logicielles et Applications Métiers</strong></p>
+                            <p>Développement, programmation, bases de données, réalisation d'applications web et
+                                mobile.</p>
+                            <p class="option-metiers">Métiers visés : Développeur, programmeur, analyste
+                                d'applications.</p>
+                            <p>(La meilleure formation)</p>
+                        </div>
+                        <div class="option option-sisr">
+                            <h4>Option SISR</h4>
+                            <p><strong>Solutions d'Infrastructure, Systèmes et Réseaux</strong></p>
+                            <p>Administration des systèmes et réseaux, virtualisation, sécurité, cloud.</p>
+                            <p class="option-metiers">Métiers visés : Administrateur réseau, technicien support,
+                                devops.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="div-3">
         <div class="div-3-1">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <div class="section-divider"></div>
+            </div>
             <div class="container">
                 <h3>Mes Langages</h3>
                 <div class="div-3-1-x">
                     <div class="div-3-1-x-x" id="html">
                         <img src="icons/html.png" class="icon" alt="HTML5">
                         <span>HTML</span>
+                        <span>90%</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
                     </div>
                     <div class="div-3-1-x-x" id="css">
                         <img src="icons/text.png" class="icon" alt="CSS3">
@@ -133,9 +208,59 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+    <div class="div-4">
+        <h2>Projets</h2>
+        <div class="div-4-1">
+            <div class="projets">
+                <div class="project-content">
+                    <h3>Site web - Domaine des Bruyères</h3>
+                    <img src="img/ddb.png" alt="Image Domaine des Bruyères" class="img-projet">
+                    <p>
+                        Réalisation d’un <span>site web vitrine</span> pour le Domaine des Bruyères, avec une approche
+                        <span>minimaliste</span> et moderne. Ce projet m’a permis de travailler une interface
+                        <span>claire et intuitive</span>, tout en améliorant mes compétences en
+                        <span>HTML, CSS et JavaScript</span>. J’ai également porté une attention particulière au
+                        <span>responsive</span> et à l’<span>expérience utilisateur</span>.
+                    </p>
+                    <span>HTML • CSS • JS</span>
+                </div>
+            </div>
+            <div class="projets">
+                <div class="project-content">
+                    <h3>Site web - DCS Games</h3>
+                    <img src="img/ddb.png" alt="Image Domaine des Bruyères" class="img-projet">
+                    <p>
+                        Participation au concours <span>DCS Games</span>, réunissant plusieurs écoles de la région
+                        lyonnaise.
+                        J’y ai représenté la <span>Business School de Villefranche-sur-Saône</span> à travers la
+                        réalisation
+                        d’un <span>site web</span> respectant un cahier des charges précis.
+                        Ce projet, développé en <span>PHP</span> avec une <span>base de données</span>, a été présenté
+                        devant un jury,
+                        ce qui m’a permis de travailler à la fois la technique et la présentation d’un projet.
+                    </p>
+                    <span>php • sqlite • JS • CSS</span>
+                </div>
+            </div>
+            <div class="projets">
+                <div class="project-content">
+                    <h3>Site web - Blog</h3>
+                    <img src="img/ddb.png" alt="Image Domaine des Bruyères" class="img-projet">
+                    <p>Site personnel minimaliste pour présenter mes compétences.</p>
+                    <span>Blade • CSS • sqlite</span>
+                </div>
+            </div>
+            <div class="projets">
+                <div class="project-content">
+                    <h3>Application POO - RPG</h3>
+                    <img src="img/ddb.png" alt="Image Domaine des Bruyères" class="img-projet">
+                    <p>Site personnel minimaliste pour présenter mes compétences.</p>
+                    <span>HTML • CSS • JS</span>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
